@@ -11,3 +11,17 @@ $(function () {
   });
 
 // console.log("scroll", window.scrollY);
+
+$(document).ready(function () {
+  $("li.dropdown").click(function () {
+      //Toggle the child but don't include them in the hide selector using .not()
+      $('li.dropdown > .dropdown-menu').not($(this).children(".dropdown-menu").toggle()).hide();
+
+  });
+  
+});
+
+// $('li.dropdown').click(function(){
+//     $(this).children('.dropdown-menu').toggle();
+// });
+

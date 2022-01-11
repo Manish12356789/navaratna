@@ -66,6 +66,9 @@ header#header p {
   bottom: -25px;
   border-radius: 5px;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
 
 .navbar.sticky{
@@ -86,21 +89,22 @@ header #navbar .navbar a.nav-link {
 }
 
 header #navbar .navbar .nav-item {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.navbar-toggler {
+.nav-item .dropdown-menu {
   right: -50px;
   position: relative;
   margin-bottom: 10px;
+  bottom: -102px;
 }
 
 header #navbar .navbar .nav-item:hover,
 header #navbar .navbar .nav-item.active {
   background: rgb(241, 236, 236);
   border-radius: 5px;
-  box-shadow: 0 1px 1px 0 rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+  /* box-shadow: 0 1px 1px 0 rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%); */
 }
 
 header #navbar .navbar .nav-item.active:hover {
@@ -111,7 +115,7 @@ header #navbar .navbar .nav-item.active:hover {
 
 
 header .dropdown-menu{
-  display: none;
+  /* display: none; */
   box-shadow: 0 1px 2px 2px rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
   border: none;
   bottom: -83px;
@@ -125,10 +129,10 @@ header .dropdown-menu a{
   border-bottom: 1px solid #3c843b;
 }
 
-header .nav-item.dropdown:hover .dropdown-menu{
+/* header .nav-item.dropdown:hover .dropdown-menu{
   display: inline-block;
  
-}
+} */
 
 
 #hero {

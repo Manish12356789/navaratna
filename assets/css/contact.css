@@ -10,14 +10,14 @@
     border-radius: 10px;
 }
 
-#about .img-layout img{
+/* #about .img-layout img{
     width: 200px;
     height: 200px;
     bottom: -50px;
     left: -100px;
     position: relative;
     border: 5px solid transparent;
-}
+} */
 
 #about .content{
     padding-right: 100px;
@@ -36,6 +36,12 @@
     font-weight: 700;
     margin-top: 20px;
     color: #3c843b;
+}
+
+#about .acupuncture img{
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 3px rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+
 }
 
 #contact{
