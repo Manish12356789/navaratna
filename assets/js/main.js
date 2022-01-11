@@ -14,11 +14,12 @@ $(function () {
 
 $(document).ready(function () {
   $("li.dropdown").click(function () {
+    console.log("hello");
       //Toggle the child but don't include them in the hide selector using .not()
       $('li.dropdown > .dropdown-menu').not($(this).children(".dropdown-menu").toggle()).hide();
 
   });
-  
+
 });
 
 // $('li.dropdown').click(function(){
