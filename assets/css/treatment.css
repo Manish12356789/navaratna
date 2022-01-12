@@ -2,12 +2,12 @@
     padding-top: 100px;
     padding-bottom: 80px;
 }
-#treatment .img-layout{
-    background-image: url(../images/about_us.png);
-    background-size: cover;
-    background-color: #cdd5c2;
-    height: 300px;
+
+
+#treatment .acupuncture img{
     border-radius: 10px;
+    box-shadow: 0 3px 3px 3px rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+
 }
 
 #treatment .img-layout img{

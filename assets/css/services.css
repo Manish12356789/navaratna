@@ -5,7 +5,10 @@
 #service .section-title {
     margin-bottom: 30px;
     position: relative;
-    right: -15%;
+    /* right: -15%; */
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
 
 #service .section-title p{
